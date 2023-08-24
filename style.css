@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;;
+    box-sizing: border-box;
+}
+
+.form-unhidden {
+    /* position: absolute;
+    top: 0; */
+    transform: translate(-50% -50%);
+    width: 100%;
+    height: 550px;
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;  
+}
+
+ .content {
+    padding: 30px;
+    top: 0;
+    /* left: 5%; */
+    width: 47%;
+    height: 689px; 
+    background: linear-gradient(to bottom, rgba(68, 63, 63, 0.541),
+    rgba(65, 61, 61, 0.541) ), url(images/login_img.png);
+    background-size: cover;
+    color: white;
+    /* flex-direction: column; */
+}
+
+ .logreg-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 55%);
+    height: 100%;
+}
+
+.img {
+    width: 150px;
+    height: 120px;
+    margin: 30px 0px -30px 140px;
+}
+.welcome {
+    padding: 160px 0px 30px 0px;
+    text-align: center;
+}
+.member {
+    padding: 0px 90px 5px 95px;
+    text-align: center;
+}
+.p {
+    padding: 80px 0 0 100px;
+}
+
+.logreg-box .form-box {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+.form-box .form-inputs {
+    /* position: relative; */
+    width: 400px;
+    height: 50px;
+    margin: 30px 0;
+}
+.form-box .form-inputs input {
+    width: 400px;
+    height: 35px;
+    border: green solid 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+.form-box .form-inputs input:hover {
+    border:  green solid 1px;
+}
+.remember-forgot {
+    font-size: 15px;
+    margin: 0 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot div input {
+    accent-color: black;
+    margin-right: 3px;
+}
+.remember-forgot a {
+    color: black;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.btn {
+    width: 89%;
+    height: 45px;
+    border-radius: 4px;
+    margin-top: 30px;
+    background-color: rgb(18, 71, 18);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: rgb(17, 17, 17);
+}
+.here {
+    display: flex;
+    padding: 30px;
+    justify-content: center; 
+}
+.here p {
+    text-align: center;
+}
+.here .signUp {
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.name {
+    display: flex;
+}
+.form-hidden {
+    /* position: absolute;
+    left: 5%; */
+    transform: translate(-50% -50%);
+    width: 90%;
+    display: flex;
+    height: 100%;
+    /* background-color: rgb(250, 250, 250); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+.form-unhidden {
+    display: block;
+}
+  .form-hidden {
+    display: none;
+}
+ .content2 {
+    padding: 30px;
+    top: 0;
+    left: 2%;
+    width: 50%;
+    height: 689px; 
+    background: linear-gradient(to bottom, rgba(68, 63, 63, 0.541),
+     rgba(68, 63, 63, 0.541) ), url(images/logout.png);
+    background-size: cover;
+    color: white;
+}
+.in {
+    padding: 80px 0 0 100px;
+    font-size: 18px;
+    text-align: center;
+}
+ .logcrebox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    padding-top: 25px;
+}
+.name .form-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.form-inputs .fill {
+    width: 89%;
+    height: 35px;
+    border: green solid 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px 0;
+    outline: none;
+}
+.form-inputs .fill2 {
+    width: 95%;
+    height: 35px;
+    border: green solid 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+    outline: none;
+}
+.name .form-inputs {
+    margin: 20px 0;
+}
+
+/* @media screen and (max-width: 1200px) {
+    .form-unhidden {
+        display: block;
+    }
+    .form-hidden {
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .form-unhidden {
+        display: none;
+    }
+    .form-hidden {
+        display: block;
+    }
+} */
